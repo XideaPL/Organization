@@ -40,9 +40,9 @@ abstract class OrganizationEvents
     const CREATE_SUCCESS = 'xidea_organization.organization.create_success';
     
     /**
-     * The CREATE_FORM_VALID event occurs when the create process is initialized.
+     * The FORM_VALID event occurs when the create process is initialized.
      */
-    const CREATE_FORM_VALID = 'xidea_organization.organization.create_form_valid';
+    const FORM_VALID = 'xidea_organization.organization.form_valid';
     
     /**
      * The CREATE_COMPLETED event occurs when the create process is initialized.
