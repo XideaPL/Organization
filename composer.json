@@ -1,7 +1,7 @@
 {
     "name": "xideapl/organization",
     "type": "library",
-    "description": "Xidea Organization Component",
+    "description": "Xidea Organization",
     "keywords": [],
     "homepage": "http://xidea.pl",
     "license": "MIT",
@@ -18,9 +18,8 @@
     "require-dev": {
     },
     "autoload": {
-        "psr-0": { "Xidea\\Component\\Organization": "" }
+        "psr-4": { "Xidea\\Organization\\": "src/" }
     },
-    "target-dir": "Xidea/Component/Organization",
     "minimum-stability": "dev",
     "extra": {
         "branch-alias": {

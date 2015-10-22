@@ -7,12 +7,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Xidea\Component\Organization;
+namespace Xidea\Organization;
 
 /**
  * @author Artur Pszczółka <a.pszczolka@xidea.pl>
  */
-abstract class OrganizationEvents
+abstract class Events
 {
     /**
      * The PRE_SAVE event occurs when the organization is saved.

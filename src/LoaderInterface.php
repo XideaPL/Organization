@@ -7,21 +7,21 @@
  * file that was distributed with this source code.
  */
 
-namespace Xidea\Component\Organization\Loader;
+namespace Xidea\Organization;
 
 use Xidea\Component\Base\Loader\ModelLoaderInterface;
 
 /**
  * @author Artur Pszczółka <a.pszczolka@xidea.pl>
  */
-interface OrganizationLoaderInterface extends ModelLoaderInterface
+interface LoaderInterface extends ModelLoaderInterface
 {
     /**
      * Returns a manufacturer by id.
      * 
      * @param int $id
      * 
-     * @return \Xidea\Component\Organization\Model\OrganizationInterface
+     * @return \Xidea\Organization\OrganizationInterface
      */
     function load($id);
     

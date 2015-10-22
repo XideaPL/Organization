@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Xidea\Component\Organization\Model;
+namespace Xidea\Organization;
 
 /**
  * @author Artur Pszczółka <a.pszczolka@xidea.pl>

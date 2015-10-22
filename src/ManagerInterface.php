@@ -7,14 +7,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Xidea\Component\Organization\Manager;
-
-use Xidea\Component\Organization\Model\OrganizationInterface;
+namespace Xidea\Organization;
 
 /**
  * @author Artur Pszczółka <a.pszczolka@xidea.pl>
  */
-interface OrganizationManagerInterface
+interface ManagerInterface
 {
     /**
      * Saves a organization.
